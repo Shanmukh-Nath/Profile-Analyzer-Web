@@ -1,0 +1,31 @@
+Question_number,Question,Tag,Question_choice_1,Question_choice_2,Question_choice_3,Question_choice_4,Correct_answer(s)
+1,"If CODE is written as BNCB, how is NODE written?",Tech-IQ,MNCM,MOCN,CNDM,NOCM,1
+2,Which of the following is least like the others?,Tech-IQ,Python,Java,SQL,C++,3
+3,"If WATCH is coded as XBUJG, how is SHARE coded?",Tech-IQ,TIBSF,TISBF,SIBTF,SIATF,1
+4,"Which number comes next in the series: 2, 6, 12, 20, ?",Tech-IQ,30,28,32,34,1
+5,"If PENCIL is written as LCNBIA, how is PAPER written?",Tech-IQ,REKAO,REPAO,REKAP,REPOA,3
+6,"Which of the following patterns completes the series: AB, DEF, HIJK, ?",Tech-IQ,MNOPQR,LMNOPQ,LMNOP,MNO,2
+7,"If 2+3=10 and 7+2=63, what is 5+4?",Tech-IQ,20,45,24,44,2
+8,Which of the following is the odd one out?,Tech-IQ,HTML,CSS,JavaScript,CPU,4
+9,"If EARTH is written as 815197, how is VENUS written?",Tech-IQ,225321,221532,221523,225312,3
+10,"Which number comes next in the series: 1, 4, 9, 16, ?",Tech-IQ,25,20,23,27,1
+11,"If DATABASE is written as ACATSBED, how is VARIABLE written?",Tech-IQ,AVBRAIEL,AVIRBALE,AVIBRALE,AVIRBAEL,3
+12,"Which of the following completes the series: J, L, N, P, ?",Tech-IQ,Q,R,S,T,2
+13,"If 5x3=28 and 6x4=52, what is 7x5?",Tech-IQ,82,80,78,76,1
+14,Which of the following is the odd one out?,Tech-IQ,Windows,Linux,MacOS,Intel,4
+15,"If MOBILE is written as NPLCJF, how is TABLET written?",Tech-IQ,UBCMFU,UBCFMT,UBMFCT,UBFMCT,1
+16,"Which comes next in the series: O, T, T, F, F, ?",Tech-IQ,S,E,F,T,1
+17,"If JAVA is coded as KBYB, how is CODE written?",Tech-IQ,DPDF,DPEF,DPDE,DODF,1
+18,Which of the following is least like the others?,Tech-IQ,Router,Switch,Firewall,Keyboard,4
+19,"If NETWORK is coded as MFUVSLD, how is SERVER coded?",Tech-IQ,TFXWFS,TFWFXS,TFSXFW,TFSWFX,1
+20,"Which number comes next in the series: 3, 6, 11, 18, ?",Tech-IQ,27,28,26,25,1
+21,"If DIGITAL is written as EHFSGSZ, how is BINARY written?",Tech-IQ,AHMZRO,AHMORZ,AHOMRZ,AHZMRO,1
+22,"Which of the following patterns completes the series: XY, WZ, UV, ?",Tech-IQ,TS,ST,TU,SU,1
+23,"If 3+4=21 and 5+6=66, what is 7+8?",Tech-IQ,120,112,56,128,1
+24,Which of the following is the odd one out?,Tech-IQ,RAM,HDD,SSD,GPU,1
+25,"If PLANET is written as QMBJOG, how is SYSTEM written?",Tech-IQ,TZTUFN,TUTFZN,TUTZFN,TZUFZN,1
+26,"Which number comes next in the series: 2, 5, 10, 17, ?",Tech-IQ,26,28,24,25,1
+27,"If DATABASE is written as EBATASDC, how is SYSTEMIC written?",Tech-IQ,TYSSYMET,TYSSYMEI,TYSYSEMI,TYSYSMEI,3
+28,"Which of the following completes the series: A, C, F, J, ?",Tech-IQ,O,N,M,P,1
+29,"If 4x5=46 and 6x7=85, what is 8x9?",Tech-IQ,144,134,124,154,1
+30,Which of the following is the odd one out?,Tech-IQ,Python,Ruby,Perl,Photoshop,4

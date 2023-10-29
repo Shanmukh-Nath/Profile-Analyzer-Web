@@ -1,0 +1,31 @@
+Question_number,Question,Tag,Question_choice_1,Question_choice_2,Question_choice_3,Question_choice_4,Correct_answer(s),Question_choice_1_ps,Question_choice_2_ps,Question_choice_3_ps,Question_choice_4_ps
+1,How do you prioritize tasks in a tight deadline?,Tech,Focus on easiest tasks first,Tackle the most critical tasks,Work sequentially,Ask for an extension,2,2,5,3,1
+2,Describe a situation where you had to learn a new technology quickly.,Tech,I prefer to avoid such situations,I take online courses to catch up,I ask colleagues for help,I dive in and learn by doing,4,1,3,2,5
+3,"When faced with a technical problem, how do you find a solution?",Tech,I try to solve it myself first,Look for solutions online,Consult with a senior colleague,All of the above,3,3,4,5,2
+4,How do you handle criticism of your technical work?,Tech,I find it discouraging,I consider it constructively,I ignore it if I disagree,I discuss it to understand better,2,1,5,2,4
+5,How do you approach a project with unfamiliar technologies?,Tech,Avoid it,Collaborate with experts,Take it as a learning opportunity,Delegate it,3,1,4,5,2
+6,How do you handle disagreements in a team setting?,Tech,Avoid confrontation,Discuss openly,Seek a manager's intervention,Let the majority decide,2,2,5,3,4
+7,What's your approach when you're stuck on a coding problem?,Tech,Take a break,Seek help immediately,Try different solutions,Switch to another task,1,5,3,4,2
+8,How do you ensure the quality of your code?,Tech,Rely on testers,Code reviews,Write unit tests,All of the above,4,2,4,5,5
+9,How do you handle tight project deadlines?,Tech,Work overtime,Prioritize tasks,Ask for more resources,Communicate and reset expectations,4,3,5,2,5
+10,What do you do when you receive vague project requirements?,Tech,Start coding immediately,Ask for clarifications,Make assumptions,Consult with peers,2,1,5,3,4
+11,How do you stay updated with the latest tech trends?,Tech,Read blogs,Attend conferences,Online courses,Discuss with colleagues,4,4,3,5,5
+12,How do you handle a team member not contributing equally?,Tech,Confront them directly,Discuss in team meetings,Inform the manager,Motivate and support them,4,3,2,5,1
+13,What's your approach to debugging difficult issues?,Tech,Guess and check,Use debugging tools,Seek help,Systematic troubleshooting,4,2,3,1,5
+14,How do you ensure continuous learning in tech?,Tech,Stick to what I know,Set aside dedicated learning time,Take on challenging projects,Rely on training sessions,2,1,5,4,3
+15,How do you handle conflicts with a colleague's tech opinion?,Tech,Insist on my way,Debate until a consensus,Seek a third opinion,Research and present facts,4,1,3,2,5
+16,What do you do if you're unsure about a tech decision?,Tech,Go with gut feeling,Consult documentation,Discuss with senior colleagues,Avoid making the decision,3,2,5,1,4
+17,How do you handle feedback on your tech solutions?,Tech,Defend my choices,Consider feedback openly,Depend on manager's opinion,Seek more feedback,2,1,5,3,4
+18,What's your approach to tech documentation?,Tech,Avoid it,Document thoroughly,Only major functionalities,Depend on others' documentation,2,1,5,3,4
+19,How do you approach tech debt in projects?,Tech,Ignore it,Address immediately,Plan for it in future sprints,Depend on team's decision,3,1,2,5,4
+20,How do you handle unexpected tech challenges?,Tech,Panic,Re-evaluate and strategize,Seek immediate help,Avoid the challenge,2,1,5,3,4
+21,How do you handle rapidly changing tech requirements?,Tech,Resist changes,Adapt and re-plan,Seek clarity before proceeding,Stick to original requirements,2,1,5,4,3
+22,What's your approach to tech mentoring?,Tech,Avoid it,Provide guidance when asked,Proactively mentor juniors,Rely on formal training sessions,3,1,5,4,2
+23,How do you handle tech decisions under pressure?,Tech,Hastily make a choice,Rely on past experiences,Consult with peers,Delay the decision,2,2,5,3,4
+24,How do you prioritize tech tasks in a sprint?,Tech,Based on ease,Based on importance,Based on dependencies,Based on team's preference,2,3,5,4,1
+25,How do you handle disagreements on tech architecture?,Tech,Stick to my opinion,Debate and convince,Seek external opinions,Research and present evidence,4,2,3,1,5
+26,How do you approach new tech tools in the market?,Tech,Stay skeptical,Experiment and learn,Wait for others to adopt,Read reviews and decide,2,5,3,4,1
+27,How do you ensure tech scalability in projects?,Tech,Focus on current requirements,Plan for future growth,Rely on cloud solutions,Depend on team's input,2,1,4,5,3
+28,How do you handle tech security concerns?,Tech,Rely on security teams,Stay updated and implement best practices,Consider it post-development,Seek expert advice,2,1,3,5,4
+29,How do you approach tech innovation in projects?,Tech,Stick to known solutions,Experiment with new ideas,Balance innovation with stability,Rely on industry trends,3,2,5,4,1
+30,How do you handle tech failures in production?,Tech,Blame the team,Analyze and fix,Seek immediate external help,Revert to previous stable state,2,1,5,3,4

@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Applicant Profile</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f2f3f5;
+            margin: 0;
+            padding: 0;
+        }
+
+        .profile-container {
+            padding: 50px;
+            background-color: #f2f3f5;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+
+        .header {
+            width: 100%;
+            text-align: center;
+            margin-bottom: 30px;
+        }
+
+        .header h1 {
+            font-size: 2.5rem;
+            margin: 0;
+            color: #333;
+        }
+
+        .metrics-container {
+            display: flex;
+            justify-content: space-between;
+            width: 80%;
+            margin-bottom: 30px;
+        }
+
+        .main-metric, .specific-metrics {
+            background: white;
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+        }
+
+        .main-metric {
+            flex: 1;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+        }
+
+        .specific-metrics {
+            flex: 2;
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            gap: 20px;
+        }
+
+        .specific-metric {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+        }
+
+        .score {
+            font-size: 2rem;
+            color: #4CAF50;
+            margin: 20px 0;
+        }
+
+        .details {
+            width: 80%;
+            background: white;
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+            margin-bottom: 30px;
+        }
+
+        .summary {
+            width: 80%;
+            background: white;
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+            margin-bottom: 30px;
+        }
+
+        .summary-content {
+            text-align: justify;
+        }
+
+        .domain {
+            font-size: 1.5rem;
+            color: #333;
+            text-align: center;
+            margin-top: 20px;
+        }
+    </style>
+</head>
+
+<body>
+
+    <div class="profile-container">
+        <div class="header">
+            <h1>{{ applicant.name }}</h1>
+        </div>
+
+        <div class="metrics-container">
+            <!-- Main Overall Metric -->
+            <div class="main-metric">
+                <p>Overall Score</p>
+                <div class="score">{{ overall }}</div>
+            </div>
+
+            <!-- 3 Specific Metrics -->
+            <div class="specific-metrics">
+                <div class="specific-metric">
+                    <p>Technical</p>
+                    <div class="score">{{ tech_score }}</div>
+                </div>
+                <div class="specific-metric">
+                    <p>Sales</p>
+                    <div class="score">{{ sales_score }}</div>
+                </div>
+                <div class="specific-metric">
+                    <p>IQ Challenge</p>
+                    <div class="score">{{ iq }}</div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Applicant Details -->
+        <div class="details">
+            <p><strong>Email:</strong> {{ applicant.email }}</p>
+            <p><strong>Most used Language on GitHub:</strong> {{ most }}</p>
+            <p><strong>Certifications:</strong>{% for l in link %}<p>{{ l }}</p>{% endfor %}
+            <p><strong>Professional Website Metrics:</strong> Example Metrics</p>
+            <p><strong>Skills:</strong> Skill 1, Skill 2, Skill 3</p>
+
+            <!-- Add more details as needed -->
+        </div>
+
+        <!-- Summary and Domain -->
+        <div class="summary">
+            <div class="summary-content">
+                Here is a detailed summary about the applicant based on their profile and metrics. This will provide insights into the applicant's strengths, weaknesses, achievements, and potential fit for the role.
+            </div>
+            <div class="domain">
+                Main Domain: {{ domain }}
+            </div>
+        </div>
+    </div>
+
+</body>
+
+</html>
